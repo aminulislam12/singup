@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgb(126, 226, 246), rgb(239, 178, 226));
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.form-wrap {
+    background-color: rgba(211, 246, 221, 0.996);
+    width: 900px;
+    height: 650px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-wrap>h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.form-wrap>h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    margin-top: 15px;
+    color: #461dea;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+}
+
+.inputBX input[type="text"],
+.inputBX input[type="email"],
+.inputBX input[type="password"],
+.inputBX input[type="date"],
+.inputBX input[type="file"],
+.inputselect,
+.input-radio {
+    padding: 8px;
+    width: 337px;
+    margin-bottom: 18px;
+    border: 1px solid #bb1139;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.inputBX input[type="text"]:focus,
+.inputBX input[type="email"]:focus,
+.inputBX input[type="password"]:focus {
+    outline-color: #13a51d;
+    border: 1px solid #ffffff00;
+}
+
+.submitBX input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn {
+    border: none;
+    background-color: #eb0350;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.combine-box {
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+}
